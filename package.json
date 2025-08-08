@@ -1,0 +1,22 @@
+{
+  "name": "cannon-three",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "check": "deno check && deno lint",
+    "build": "deno task check && tsc && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist --branch pages"
+  },
+  "dependencies": {
+    "@types/three": "^0.178.1",
+    "cannon-es": "^0.20.0",
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vite": "^7.0.6"
+  }
+}

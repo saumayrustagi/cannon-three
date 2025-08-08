@@ -40,7 +40,7 @@ export class MyScreen {
 			return solver;
 		})();
 		this.WORLD = new CANNON.World({
-			gravity: new CANNON.Vec3(0, -10, 0),
+			gravity: new CANNON.Vec3(0, -9.82, 0),
 			solver: solver,
 		});
 
